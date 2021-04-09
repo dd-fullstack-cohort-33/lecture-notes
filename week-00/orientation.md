@@ -34,9 +34,8 @@ This is what is traditionally led by the instructor at Deep Dive.
 * Required to be available 8 - 5 M-Th, 8-3 F with 1 hour break at lunch.
 * No in-person instruction or meetings in bootcamp spaces.
   * May be relaxed later, but I promise that all participants will be able to finish this bootcamp without ever needing to come in.
-  * May request special accommodations for working at CNM locations,
+  * May request special accommodations for working at CNM locations, but there are no guarantees
     * Requires written documentation about why space or internet connection at your remote environment is insufficient
-    * At most, it will only be Mondays and Wednesdays, so you still need to figure out underlying issues for the other days
 
 ## Teaching/Learning Style
 * Accountability: first you, then your peers, then instructors
