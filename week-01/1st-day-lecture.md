@@ -1,0 +1,93 @@
+# 1st Day Lecture
+
+## Icebreaker
+  - Name
+  - Favorite book, movie, television show, etc.
+
+## Fullstack Web Development Bootcamp: let's break it down
+- Developer
+  - Question: What does it mean to be a developer?
+  - A person who writes applications in computer code.
+  - This is you!  Right now!  You belong here.
+  - Attributes
+    - Tenacity
+    - Teamwork
+    - Empathy
+  - Developer is not the only career path coming out of this bootcamp, just the most common
+    - project manager
+    - technical recruiter
+    - designer
+    - UI/UX specialist
+    - business analyst
+- Web - Writing for the browser.
+  - Question: Which devices run browsers?
+    - Laptops/desktops
+    - Phones
+    -Tablets
+    - Screen readers
+    - Cars
+    - APIs
+    - More
+- Fullstack - Facile with both front-end and back-end development
+  - https://twitter.com/bluecoders/status/966624401172123649
+  - **front-end** - how the page looks and behaves
+    - HTML, CSS, JavaScript and related technologies
+    - Not the same as a designer!
+  - **back-end** - transforming data between human-readable and machine-readable formats 
+    - **Database** - where our data is stored
+    - back-end language (PHP, Java, JavaScript, Python, Ruby, many others)
+- Bootcamp - 10 week intensive course
+  - Expect homework
+    - Almost 2/3 of our students report doing more than 10 hours per week outside of class.
+    - Last three weeks are especially intense
+  - We treat this like a professional environment, not a classroom
+    - Accountability: first you, then peers, then instructors.
+    - No personal attacks, rudeness, mocking, condescension, or other toxic interpersonal behavior.
+  - Bring your whole self
+    - Mental, emotional, and physical.
+    - Transparency!  If we know what's going on, we can help.
+    - Attendance and participation is mandatory - 50% of capstone
+
+## Classroom logistics
+- Some terms we sometimes use
+  - **clam shells down**: close laptops/ lower monitors.
+  - **TL;DR**: too long; didn't read.
+  - **re-hi all**: Class is starting again.
+- Zoom intro
+  - breakout rooms
+  - chat
+  - we don't usually pay attention to nonverbal responses
+    - don't use "raise hand", speak up instead  
+- Stand-up meetings: 15 minute meetings 8:00 a.m.
+  - What you did (including tech work/events outside of class)
+  - What you're going to do next
+- Snap challenges
+  - short one-hour assignments designed to use and build beyond what you learned
+  - not like regular quizzes -- you aren't always going to get the answer!
+  - really good analog to what you often do as a professional developer
+
+## Syllabus
+- http://ddc-web-curriculum.cnm.edu/syllabus/
+- Fullstack Javascript
+  - Used to be PHP
+    - Now there's one less language to learn
+    - JavaScript is growing quickly
+- Slack
+  - best way to reach instructors
+  - each of you has your own channel
+  - cohort-web-##
+  - web-captains-log
+  - current-community
+  - fuzzy-pets
+- Calendar: https://calendar.google.com/calendar?cid=Ym9vdGNhbXBjb2RlcnNAZ21haWwuY29t
+- GitHub: https://github.com/ddc-fullstack-cohort-31
+  - All relevant example and other repos posted there
+  - Lecture Notes and assignments found in the lecture-notes repo
+- Rubrics
+  - http://ddc-web-curriculum.cnm.edu/pwp-evaluation-rubric/
+  - http://ddc-web-curriculum.cnm.edu/capstone-grading-rubric/ 
+- Instructor availability
+  - Monday - Thursday 8:00 - 5:00 
+  - Friday 8:00 - 12:00
+  - Can message outside of these hours, but may not get a response.
+  - Extended hours/weekends later in the semester.
