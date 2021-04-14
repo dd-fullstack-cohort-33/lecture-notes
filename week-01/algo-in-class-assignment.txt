@@ -1,0 +1,18 @@
+Given two numbers, write an algorithm that outputs the sum of all odd numbers between those numbers, inclusive.
+
+number1 = 12
+number2 = 5
+sum = 0
+
+if number1 > number2
+		min = number2
+		max = number1
+	else
+		min = number1
+		max = number2
+loop index = min, to max, step 1
+	if index % 2 == 1
+		sum = sum + index
+end of loop
+
+print sum
