@@ -1,0 +1,29 @@
+Question: Write an algorithm, either in pseudocode or in code, that converts weights to grams.  The algorithm should take two arguments.  The first argument will be a number, the second will be an abbreviation for a unit of weight, either "lbs", "oz", "kg", "g", or "mg".  Based on the second argument, convert the number to grams and output it.
+
+1. declare function convert weights to grams argument1: weight argument2: abbreviation
+2. if abbreviation must equal "lbs"
+    - return weight * 453.59
+3. else if abbreviation must equal "oz"
+    - return weight * 28.35
+4. else if abbreviation must equal "kg"
+    - return weight * 1000
+5. else if abbreviation must equal "mg"
+    - return weight /1000
+6. else
+    - return weight
+
+
+Question: Write a function in JavaScript that takes a number and finds the sum of all unique positive factors of a number.  (The factors of a number are all numbers that divide evenly into it.  For example, the unique positive factors of 12 are 1, 2, 3, 4, 6, and 12, and the sum would thus be 28.)
+
+1. declare function sumAllPositiveFactors argument value
+2. enforce that value is positive
+3. declare accumulator and make it equal 0
+4. for i equals 1; stop at i is less than or equal to number; every loop i equals i plus 1;
+5. if i divides equally into number
+    - accumulator equals accumulator + i
+6. return accumulator
+
+
+
+
+
