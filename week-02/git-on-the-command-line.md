@@ -1,7 +1,7 @@
 # Code-along: Intro to the command line & Git
 
 ## Commands prior to starting
-- How to get Windows users to have Git Bash as their terminal:
+- How to  get Windows users to have Git Bash as their terminal:
     - Go to Settings -> Terminal and under Shell Path enter `"C:\Program Files (x86)\Git\bin\sh.exe" --login -i`
     - More info: https://stackoverflow.com/questions/27678608/git-command-is-not-recognized-on-terminal-tool-window-in-intellij-idea
 
