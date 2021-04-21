@@ -35,7 +35,7 @@ https://xkcd.com/1597/
             - `Esc` to make sure you are not in editing mode
             - `:q!` to quit without makeing any changes
 - `git add my-file.txt` or `git add my-folder` - Add a file to be staged. Use the -a flag to make sure that you also get file deletions.
-- `git commit - m "Adding my feature"` - Create a new commit with all your currently staged changes.
+- `git commit -m "Adding my feature"` - Create a new commit with all your currently staged changes.
 - `git log` - List past commits.
 
 ### Working with remotes
