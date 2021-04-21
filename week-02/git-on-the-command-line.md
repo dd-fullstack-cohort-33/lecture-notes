@@ -48,5 +48,5 @@ https://xkcd.com/1597/
     - `git merge` creates a new "merge commit" that ties the local and remote changes together.
 - `git clone` - Go get a repository that already exists and pull it to your local machine.
 
-More on Git: http://ddc-web-curriculum.cnm.edu/intro-to-git/
+More on Git : http://ddc-web-curriculum.cnm.edu/intro-to-git/
 More on Linux: https://dev.to/rudrakshi99/linux-basics-2onj
