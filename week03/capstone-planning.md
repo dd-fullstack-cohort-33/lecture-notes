@@ -14,7 +14,7 @@
     - put the user stories and use case/interaction flow in the persona file
     - put the conceptual model in concept-model.html
     - put a one paragraph executive summary in index.html
-    - Create wireframes for what you envision your capstone will look like and add them to /epic/wireframes
+    - Create wireframes for what you envision your capstone will look like and add them to /documentation/wireframes
         - If you hand-draw your wireframes they must be of high quality and scanned.
 
 ## Cutting down scope - Blood on the Floor
