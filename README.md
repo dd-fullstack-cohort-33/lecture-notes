@@ -1,5 +1,5 @@
 # lecture-notes
-Lecture notes, assignments, and other resources for Fullstack Cohort 33. Also assignment info.
+Lecture notes, assignments, and other resources for Fullstack Cohort 33. This repo also contains assignment information.
 
 ## Useful Links
 * [Syllabus](http://ddc-web-curriculum.cnm.edu/syllabus/)
