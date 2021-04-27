@@ -79,6 +79,7 @@ All work on capstones should follow the git flow model.
 
 ## Further reading
 ![](git-workflow.png)
+- https://xkcd.com/1597/
 - What to do if it goes all wrong: https://ohshitgit.com/  
 - git cheat sheet: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
