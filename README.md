@@ -9,13 +9,13 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 33. This re
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding 
+* [PWP Milestone 2](http://ddc-web-curriculum.cnm.edu/pwp-milestone-two/) - Due Thursday, April 29
+
+### Complete
+* About Me Assignment: Due Wednesday, April 14 
 * [UI/UX Assignment](https://classroom.github.com/a/nwrTcz7a) - Due Friday, April 16 
     * helpful links
         * [Lecture Notes](./week-01/ui-ux/ui-ux.md)
         * [Website Documentation](http://ddc-web-curriculum.cnm.edu/intro-to-ux/)
 * [PWP Milestone 1](http://ddc-web-curriculum.cnm.edu/pwp-milestone-one/) - Due Thursday, April 22
 * [Bootstrap Challenge](https://classroom.github.com/a/aN8NPxyv) - Due Tuesday 4/27
-* [PWP Milestone 2](http://ddc-web-curriculum.cnm.edu/pwp-milestone-two/) - Due Thursday, April 29
-
-### Complete
-* About Me Assignment: Due Wednesday, April 14 
