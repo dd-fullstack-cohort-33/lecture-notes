@@ -9,6 +9,7 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 33. This re
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding 
+* [Js Events Challenge](https://classroom.github.com/a/JJzoZx2h) - Due Tuesday May the 4th (be with you)
 * [PWP Milestone 2](http://ddc-web-curriculum.cnm.edu/pwp-milestone-two/) - Due Thursday, April 29
 
 ### Complete
