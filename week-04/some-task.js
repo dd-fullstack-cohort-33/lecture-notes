@@ -16,7 +16,7 @@ const createSomeTask = () => {
 	const doSomeTask = () => {
 		console.log("ya I did some task")
 	}
-	return doSomeTask
+	return doSomeTask()
 }
 
 const someTask = createSomeTask()
