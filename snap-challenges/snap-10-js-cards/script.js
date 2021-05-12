@@ -82,15 +82,14 @@ const cards = posts.map(makePostHtml)
 target.innerHTML = cards.join(" ")
 
 
+
 const targetReduce = document.getElementById("targetReduce")
 
-targetReduce.innerHTML = cards.reduce((accumulator, card) => accumulator + card)
+const reducer = (accumulator, post) => {
+	console.log(accumulator)
+	return accumulator + makePostHtml(post)
 
-// const reducer = (accumulator="", post) => {
-// 	console.log(accumulator)
-// 	// console.log(post)
-// 	return accumulator + makePostHtml(post)
-// };
-//
-// targetReduce.innerHTML = (posts.reduce(reducer))
+};
+
+targetReduce.innerHTML = (posts.reduce(reducer,""))
 
