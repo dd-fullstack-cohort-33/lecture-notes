@@ -9,7 +9,8 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 33. This re
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding 
-* [PWP Hosting Prework](week-05/pwp-hosting-prework.md)
+* [PWP Hosting Prework](week-05/pwp-hosting-prework.md) - Due Monday, May 17
+* [PWP Milestone 4 (final)](https://ddc-web-curriculum.cnm.edu/pwp-milestone-four/) - Due Wednesday, May 26
 
 ### Complete
 * About Me Assignment: Due Wednesday, April 14 
