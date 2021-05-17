@@ -1,5 +1,5 @@
 # PWP Hosting Setup Prework
-You will need to do some preliminary preparation before we start the PWP class lecture series.  Be sure to do this at least 24 hours in advance of the PWP Hosting Seupt lecture, as you may need to contact Digital Ocean support to iron out account verification issues. 
+You will need to do some preliminary preparation before we start the PWP class lecture series.  Be sure to do this at least 24 hours in advance of the PWP Hosting Setup lecture, as you may need to contact Digital Ocean support to iron out account verification issues. 
 
 ## Gift Cards
 - We use gift cards to give you $ for hosting and domain name set up.
