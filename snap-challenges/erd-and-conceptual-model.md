@@ -1,0 +1,1 @@
+Create an ERD and Conceptual model for Asana. Limit it to the functionality we use in class, namely users, groups, projects, and tickets. You do not have to include functionality we do not use in class such as the mail system, portfolios, and goals.
