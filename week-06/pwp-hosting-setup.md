@@ -1,0 +1,76 @@
+# PWP Hosting Setup Codealong
+### Create a new project and droplet on Digital Ocean
+- Create project - New Project in sidebar
+    - projects are a way of organizing droplets
+    - names and descriptions should be relevant for you, e.g. gkephart-bootcamp
+- Create -> Droplet
+    - Marketplace -> Docker on Ubuntu (choose latest versions)
+    - Basic plan
+    - $5 per month
+    - San Francisco 2
+    - IPv6 and Monitoring
+    - New SSH Key (copy/paste your ssh key from your computer)
+        - Mac/Linux key location: ~/.ssh/id_ed25519.pub
+        - Windows key location: PuTTYgen
+    - Choose hostname (internal to docker, e.g. george-pwp)
+    - backups are strongly encouraged
+    - Wait for process to finish
+    - Copy the IP address for later
+
+### Disable root ssh access
+- we do this for security
+    - root ssh access means that if login is compromised, entire server is compromised
+    - better way: ssh in as a different user, then use sudo to run commands as root
+    - means that if attacker gets our key, they don't have full access unless they ALSO get our password
+- ssh into the server
+    - For Mac and Linux: `ssh root@104.248.64.22`
+    - For Windows: Set up a new PuTTY session
+        - **Session**
+            - Hostname: droplet ipv4 address
+            - name `pwp`
+            - Click `Save`
+        - **Connection → Data**
+            - Auto-login Username: root
+        - **Connection → SSH → Auth**
+            - Private key file for authentication: *Browse to the ssh-key.ppk file in your bootcamp directory*
+        - **Session**
+            - Click pwp
+            - Click Save
+- create user
+    - `useradd -c "George Kephart" -m -s /bin/bash -g users -G sudo gkephart`
+    - replace George's name and username with your own
+- create password
+    - `passwd gkephart`
+- Move .ssh key file
+    - `cp -r .ssh /home/gkephart`
+- change ownership of the .ssh directory
+    - `cd /home/gkephart`
+    - `chown gkephart:users .ssh/`
+    - `chown gkephart:users .ssh/authorized_keys`
+- Test Changes
+    - `exit`
+    - Mac/Linux: `ssh gkephart@104.248.64.22`
+    - Windows:
+        - **Session**
+            - Click pwp
+            - Click Load
+        - **Connection → Data**
+            - Auto-login Username: change from root to gkephart
+        - **Session**
+            - Click pwp
+            - Click Save
+- // **if successful**, delete the root user
+    - Don't do this while logged in as root!
+    - `sudo rm -rf /root/.ssh`
+
+### Set up your user on the server
+- Generate an ssh key for your user on the server
+    - https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#
+        - Click 'Linux' (don't do this in Git Bash!)
+- Add your new ssh key to your Github account
+    - `vim .ssh/id_ed25519.pub`
+        - highlight and copy your text
+        - exit with `:q!`
+    - Follow the instructions from Step 2 onward in https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+- Add your user to the docker group (this will allow you to make changes without using sudo)
+    - `sudo usermod -a -G docker $USER`
