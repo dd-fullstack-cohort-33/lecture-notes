@@ -18,10 +18,16 @@ but only generated using the private key (which is held by the CA)
   - Prevents somebody else from hijacking the domain
   - certificates only last 90 days, so you have to automate the renewal process
 
-### How to serve your PWP in https
-- Example code is at https://github.com/dd-fullstack-cohort-33/pwp-https-instructions
-- Run through the instructions in the README
-  - You will add some code from that repo to your project, and run some commands on your droplet
+### Next steps for serving your PWP
+- Containerize your PWP by going through the [reverse-lecture video](https://deepdivecoding.slack.com/files/UGB9B0EQ7/F01TH0KTUBT/pwp-3-containerization.mp4)
+  - This is similar to what you did for the MySQL challenge
+  - As you go through the video, we instructors will be available to answer questions.
+  - [Written instructions to accompany the video](https://github.com/dd-fullstack-cohort-33/lecture-notes/blob/main/week-06/pwp-3-containerization.md)
+  - [Completed example repo](https://github.com/dd-fullstack-cohort-33/contact-form-complete)
+- Add https to your PWP
+  - Example code is at https://github.com/dd-fullstack-cohort-33/pwp-https-instructions
+  - Run through the instructions in the README
+    - You will add some code from that repo to your project, and run some commands on your droplet
 
 ### Further reading
 - https://www.digitalocean.com/community/tutorials/an-introduction-to-let-s-encrypt
