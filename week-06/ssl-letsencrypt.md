@@ -19,7 +19,7 @@ but only generated using the private key (which is held by the CA)
   - certificates only last 90 days, so you have to automate the renewal process
 
 ### How to serve your PWP in https
-- Example code is at https://github.com/Deep-Dive-Coding-Fullstack-Licensing/pwp-hosting-starter
+- Example code is at https://github.com/dd-fullstack-cohort-33/pwp-https-instructions
 - Run through the instructions in the README
   - You will add some code from that repo to your project, and run some commands on your droplet
 
