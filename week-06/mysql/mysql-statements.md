@@ -54,6 +54,6 @@
 ## JOINS
 ### Simple joins
 - `SELECT tableA.column1, tableA.column2, tableA.column3, tableB.column3 FROM tableA INNER JOIN tableB on tableA.primaryKeyA = tableB.foreignKeyA WHERE tableA.column = true`
-- `SELECT tweet.tweetId,  tweet.tweetProfileId,  tweet.tweetContent, tweet.tweetDate FROM tweet INNER JOIN profile on tweet.tweetProfileId = profile.profileId where tweet.tweetContent = "California"`
+- `SELECT tweet.tweetId,  tweet.tweetProfileId,  tweet.tweetContent, tweet.tweetDate, profile.profileAtHandle FROM tweet INNER JOIN profile on tweet.tweetProfileId = profile.profileId where tweet.tweetContent = "California"`
 ### Complex joins
 - `SELECT tweet.tweetId, tweet.tweetProfileId, tweet.tweetContent, tweet.tweetDate, profile.profileAtHandle FROM 'like' INNER JOIN tweet ON tweet.tweetId = like.likeTweetId INNER JOIN profile ON profile.profileId = like.likeProfileId WHERE like.likeTweetId = uuid`
