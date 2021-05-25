@@ -10,7 +10,7 @@ All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding 
 * [PWP Milestone 4 (final)](https://ddc-web-curriculum.cnm.edu/pwp-milestone-four/) - ~Due Wednesday, May 26~ Due Thursday, May 27
-* [Tech in the Media assignment](week-o7/tech-in-media.md) - Due Tuesday, June 1
+* [Tech in the Media assignment](week-07/tech-in-media.md) - Due Tuesday, June 1
 
 ### Complete
 * About Me Assignment: Due Wednesday, April 14 
