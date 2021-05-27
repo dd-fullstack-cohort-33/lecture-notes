@@ -7,7 +7,7 @@
 * Insomnia has some handy features
     * save your requests individually so you can come back to them later
     * much easier than trying to debug in the browser
-* where to get it: https://insomnia.rest/
+* where to get it: https://insomnia.rest/download
     * download and install Insomnia core
 
 ## Below you will find the steps for testing various APIs in the Insomnia REST client.
