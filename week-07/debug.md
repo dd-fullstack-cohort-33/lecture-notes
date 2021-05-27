@@ -25,11 +25,12 @@ Although these are often overlooked by novices, they are usually much more usefu
 6. Step away - Literally, put some distance between you and the computer. Get up, take a walk, and think about it without your screen in front of it.
 7. Sleep on it - Coming back to a problem with fresh eyes can present new solutions.
 8. Remember the big picture - Most bugs are small and relatively inconsequential. Don't get trapped into feeling bad about something small.
-9. Alleviate it - Is there an easy solution that will solve almost all of the problem?  If so, implement that solution and come back to the hard bug when it's worth it.
-10. Reevaluate the reward - Sometimes, tough bugs simply aren't worth the time it would take to fix them. If you've already spent 8+ hours on it, is it really worth fixing it?
+9. Alleviate it - Is there an easy solution that will solve almost all of the problem?  If so, implement that solution and come back to the hard bug when it's worth it.  Can also use Marty's "10 bad ways to solve the problem"   
+11. Reevaluate the reward - Sometimes, tough bugs simply aren't worth the time it would take to fix them. If you've already spent 8+ hours on it, is it really worth fixing it?
 
 ### Technical tools
 - Comment out code, copy it, and change it so that you have a known starting place if you need to go back to it.
+  - No idea 
 - Print variables to the screen
   - in JS: `console.log` - https://developer.mozilla.org/en-US/docs/Web/API/Console/log
 - Use these variable examinations to find the line where your code is going wrong
@@ -37,3 +38,5 @@ Although these are often overlooked by novices, they are usually much more usefu
 - More formal debuggers
   - browser tools - can look at all variables that are contained on browser-side javascript
   - [various methodologies for server-side JS](https://raygun.com/javascript-debugging-tools) - outside of the scope of this class, but you can look into them if you are curious.
+  - Unit Testing - dev philosophy where we write code that checks critical functionality with every commit/push
+    - extra work, but very nice for large projects
