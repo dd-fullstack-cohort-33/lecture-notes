@@ -37,6 +37,7 @@
   	}
   }
 ```
+[above code example](https://codesandbox.io/s/classical-redux-nbcy9?file=/src/index.js:371-397)
 ### Actions
 - Simple objects that send data to the store via the reducers.
 - [Redux Actions Documentation](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow#actions)
