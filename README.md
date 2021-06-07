@@ -4,13 +4,13 @@ Lecture notes, assignments, and other resources for Fullstack Cohort 33. This re
 ## Useful Links
 * [Syllabus](http://ddc-web-curriculum.cnm.edu/syllabus/)
 * [Class Calendar](https://calendar.google.com/calendar?cid=Ym9vdGNhbXBjb2RlcnNAZ21haWwuY29t) (Updated Tuesdays)
+* [Example Capstone](https://github.com/Deep-Dive-Coding-Fullstack-Licensing/example-capstone)
 
 ## Assignments
 All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding 
-* [PWP Milestone 4 (final)](https://ddc-web-curriculum.cnm.edu/pwp-milestone-four/) - ~Due Wednesday, May 26~ Due Thursday, May 27
-* [Tech in the Media assignment](week-07/tech-in-media.md) - Due Tuesday, June 1
+* [Employer Roundtable and Graduation presentations](week-10/presentations.md)
 
 ### Complete
 * About Me Assignment: Due Wednesday, April 14 
@@ -26,3 +26,5 @@ All assignments are due before class at 8:00 a.m. on the due date.
 * [PWP Milestone 3](http://ddc-web-curriculum.cnm.edu/pwp-milestone-three/) - Due Thursday, May 13
 * [PWP Hosting Prework](week-05/pwp-hosting-prework.md) - Due Monday, May 17
 * [MySQL Challenge](https://classroom.github.com/a/EWF0FO1c) - Due Tuesday, May 25
+* [PWP Milestone 4 (final)](https://ddc-web-curriculum.cnm.edu/pwp-milestone-four/) - ~Due Wednesday, May 26~ Due Thursday, May 27
+* [Tech in the Media assignment](week-07/tech-in-media.md) - Due Tuesday, June 1
